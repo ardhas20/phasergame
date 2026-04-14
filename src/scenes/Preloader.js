@@ -16,7 +16,7 @@ export class Preloader extends Phaser.Scene {
     }
 
     preload() {
-        // 🌍 BASIC
+        // BASIC
         this.load.image('sky', 'assets/sky.png');
         this.load.image('ground', 'assets/platform.png');
         this.load.image('homework', 'assets/homework.png');
@@ -25,13 +25,13 @@ export class Preloader extends Phaser.Scene {
 this.load.image('pultteiler', 'assets/pultteiler.png');
 this.load.image('bag', 'assets/bag.png');
 
-        // 👤 PLAYER
+        //  PLAYER
         this.load.spritesheet('dude', 'assets/dude.png', {
             frameWidth: 32,
             frameHeight: 48
         });
 
-        // 😈 ENEMY STUDENTS
+        //  ENEMY STUDENTS
         this.load.image('ergit', 'assets/ergit.png');
         this.load.image('eriseld', 'assets/eriseld.png');
         this.load.image('gani', 'assets/gani.png');
